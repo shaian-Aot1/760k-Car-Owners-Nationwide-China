@@ -15,11 +15,11 @@ To run this project, you need Python with the following libraries installed:
 !pip install pandas
 !pip install googletrans==3.1.0a0
 ```
-Code Overview
-1. Translation and Data Loading
+## Code Overview
+## 1. Translation and Data Loading
 The code first attempts to load the dataset, handling potential encoding issues common with non-UTF-8 files. After successfully loading the CSV file, it performs the following tasks:
 
-Batch Translation: A custom batch translation function joins, translates, and then splits back the data for efficient translation.
+Batch Translation:A custom batch translation function joins, translates, and then splits back the data for efficient translation.
 Empty Column Removal: Any columns containing only empty values are dropped.
 2. Header and Data Translation
 Translates column headers and the first five rows of the DataFrame.
